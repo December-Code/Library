@@ -1,76 +1,56 @@
 <tr>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter085.pdf"
-target="_blank" title="085">085期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter084.pdf"
-target="_blank" title="084">084期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter083.pdf"
-target="_blank" title="083">083期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter082.pdf"
-target="_blank" title="082">082期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter122.pdf"
+target="_blank" title="122">122期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter121.pdf"
+target="_blank" title="121">121期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter120.pdf"
+target="_blank" title="120">120期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter119.pdf"
+target="_blank" title="119">119期</a></td>
 </tr>
 <tr>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter081.pdf"
-target="_blank" title="081">081期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter080.pdf"
-target="_blank" title="080">080期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter079.pdf"
-target="_blank" title="079">079期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter078.pdf"
-target="_blank" title="078">078期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter118.pdf"
+target="_blank" title="118">118期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter117.pdf"
+target="_blank" title="117">117期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter116.pdf"
+target="_blank" title="116">116期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter115.pdf"
+target="_blank" title="115">115期</a></td>
 </tr>
 <tr>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter077.pdf"
-target="_blank" title="077">077期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter076.pdf"
-target="_blank" title="076">076期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter075.pdf"
-target="_blank" title="075">075期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter074.pdf"
-target="_blank" title="074">074期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter114.pdf"
+target="_blank" title="114">114期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter113.pdf"
+target="_blank" title="113">113期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter112.pdf"
+target="_blank" title="112">112期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter111.pdf"
+target="_blank" title="111">111期</a></td>
 </tr>
 <tr>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter073.pdf"
-target="_blank" title="073">073期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter072.pdf"
-target="_blank" title="072">072期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter071.pdf"
-target="_blank" title="071">071期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter070.pdf"
-target="_blank" title="070">070期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter110.pdf"
+target="_blank" title="110">110期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter109.pdf"
+target="_blank" title="109">109期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter108.pdf"
+target="_blank" title="108">108期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter107.pdf"
+target="_blank" title="107">107期</a></td>
 </tr>
 <tr>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter069.pdf"
-target="_blank" title="069">069期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter068.pdf"
-target="_blank" title="068">068期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter067.pdf"
-target="_blank" title="067">067期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter066.pdf"
-target="_blank" title="066">066期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter106.pdf"
+target="_blank" title="106">106期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter105.pdf"
+target="_blank" title="105">105期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter104.pdf"
+target="_blank" title="104">104期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter103.pdf"
+target="_blank" title="103">103期</a></td>
 </tr>
 <tr>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter065.pdf"
-target="_blank" title="065">065期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter064.pdf"
-target="_blank" title="064">064期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter063.pdf"
-target="_blank" title="063">063期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter062.pdf"
-target="_blank" title="062">062期</a></td>
-</tr>
-<tr>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter061.pdf"
-target="_blank" title="061">061期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter060.pdf"
-target="_blank" title="060">060期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter059.pdf"
-target="_blank" title="059">059期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter058.pdf"
-target="_blank" title="058">058期</a></td>
-</tr>
-<tr>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter057.pdf"
-target="_blank" title="057">057期</a></td>
-<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter056.pdf"
-target="_blank" title="056">056期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter102.pdf"
+target="_blank" title="102">102期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter101.pdf"
+target="_blank" title="101">101期</a></td>
 </tr>
