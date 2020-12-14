@@ -41,7 +41,7 @@ int main()
             startCount_add += 1;
         }
         file.close();
-        cout << "Success" << endl;
+        cout << "Successly" << endl;
     }
 
     return 0;
