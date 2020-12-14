@@ -19,10 +19,20 @@
             position: relative;
             color: #0082FF;
             font-weight: bold;
-            padding-bottom: 5px;
             border-bottom: solid 6px #0082FF;
-            font-size: 35px;
-            padding-top: 1em;
+            font-size: 30px;
+        }
+
+        .textTitle {
+            position: relative;
+            color: #0082FF;
+            font-weight: bold;
+            padding-bottom: 5px;
+            font-size: 20px;
+        }
+
+        .textContent {
+            padding: 3px;
         }
 
         .button_year {
@@ -52,20 +62,16 @@
 
 <body>
     <div class="listitle">
-        <h2>圖書館各期電子報</h2>
+        <h1>圖書館各期電子報</h1>
     </div>
-    <div>
-        <br>
+    <div class="textContent">
         <p>圖書館定期發送電子報公告館內的最新消息</p>
-        <br>
         <p>如開閉館公告、視聽中心影展、圖書館利用指導活動、各種教育訓練課程資訊......等等</p>
-        <br>
         <p>電子報相關問題，請洽本館服務與創新組</p>
-        <br>
-        <p>歡迎訂閱，請至國立清華大學電子報系統「訂退閱專區」<a href="連結連結">訂閱電子報</a></p>
+        <p>歡迎訂閱，請至國立台灣科技大學電子報系統「訂退閱專區」<a href="連結連結">訂閱電子報</a></p>
     </div>
-    <div>注意事項</div>
-    <div>
+    <div class="textTitle">注意事項</div>
+    <div class="textContent">
         <ol>
             <li>電子報為定期發送，歡迎您隨時連線至本館首頁查看最新消息。</li>
             <li>電子報因為較即時性質之刊物，故網頁僅呈現近一年所發行之電子報。</li>
@@ -73,10 +79,11 @@
             <li>還有內容嗎 ?</li>
             <li>還有內容嗎 ?</li>
         </ol>
+        <br>
     </div>
     <!-- javaScript -->
     <script>
-        var table = "";
+        var table = "table01";
         var conditionOrigin = 1;
 
         function table_year(Condition) {
@@ -102,13 +109,16 @@
             document.getElementById(table).style.display = "block";
         }
     </script>
+
     <button class="button_year" onclick="table_year(76)">100~076期</button>
     <button class="button_year" onclick="table_year(51)">075~051期</button>
     <button class="button_year" onclick="table_year(26)">050~026期</button>
     <button class="button_year" onclick="table_year(1)">025~001期</button>
 
     <div>
-        <thead>近期電子報</thead>
+        <div class="textContent">
+            <h1>近期電子報</h1>
+        </div>
         <table class="table table-hover">
             <tbody>
                 <tr>
@@ -168,7 +178,9 @@
         </table>
     </div>
     <div id="table04" style="display:none">
-        <thead>100~076期 電子報</thead>
+        <div class="textContent">
+            <h2>100~076期 電子報</h2>
+        </div>
         <table class="table table-hover">
             <tbody>
                 <tr>
@@ -235,7 +247,9 @@
         </table>
     </div>
     <div id="table03" style="display:none">
-        <thead>075~051期 電子報</thead>
+        <div class="textContent">
+            <h2>075~051期 電子報</h2>
+        </div>
         <table class="table table-hover">
             <tbody>
                 <tr>
@@ -302,7 +316,9 @@
         </table>
     </div>
     <div id="table02" style="display:none">
-        <thead>050~026期 電子報</thead>
+        <div class="textContent">
+            <h2>050~026期 電子報</h2>
+        </div>
         <table class="table table-hover">
             <tbody>
                 <tr>
@@ -369,7 +385,9 @@
         </table>
     </div>
     <div id="table01" style="display:none">
-        <thead>025~001期 電子報</thead>
+        <div class="textContent">
+            <h2>025~001期 電子報</h2>
+        </div>
         <table class="table table-hover">
             <tbody>
                 <tr>
