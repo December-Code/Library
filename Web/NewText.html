@@ -74,40 +74,41 @@
             <li>還有內容嗎 ?</li>
         </ol>
     </div>
-    <div>今年度電子報</div>
-    <div>歷年電子報</div>
     <!-- javaScript -->
     <script>
-        document.getElementById("table109").style.display = "none"
-        document.getElementById("table108").style.display = "none"
-        document.getElementById("table107").style.display = "none"
-        document.getElementById("table106").style.display = "none"
-        document.getElementById("table105").style.display = "none"
-        document.getElementById("table104").style.display = "none"
+        var table = "";
+        var conditionOrigin = 1;
 
         function table_year(Condition) {
+            if (conditionOrigin != Condition) {
+                document.getElementById(table).style.display = "none";
+            }
+            conditionOrigin = Condition;
             switch (Condition) {
                 case 1:
                     table = "table01"
+                    break;
                 case 26:
                     table = "table02"
+                    break;
                 case 51:
                     table = "table03"
+                    break;
                 case 76:
                     table = "table04"
+                    break;
                 case 101:
-                    table = "table05"
             }
             document.getElementById(table).style.display = "block";
         }
     </script>
-    <button class="button_year" onclick="table_year(101)">100期~125期</button>
-    <button class="button_year" onclick="table_year(51)">051期~075期</button>
-    <button class="button_year" onclick="table_year(76)">076期~100期</button>
-    <button class="button_year" onclick="table_year(26)">026期~050期</button>
-    <button class="button_year" onclick="table_year(1)">001期~025期</button>
+    <button class="button_year" onclick="table_year(76)">100~076期</button>
+    <button class="button_year" onclick="table_year(51)">075~051期</button>
+    <button class="button_year" onclick="table_year(26)">050~026期</button>
+    <button class="button_year" onclick="table_year(1)">025~001期</button>
 
-    <div id="table01" style="display:none">
+    <div>
+        <thead>近期電子報</thead>
         <table class="table table-hover">
             <tbody>
                 <tr>
@@ -167,7 +168,8 @@
             </tbody>
         </table>
     </div>
-    <div id="table02" style="display:none">
+    <div id="table04" style="display:none">
+        <thead>100~076期 電子報</thead>
         <table class="table table-hover">
             <tbody>
                 <tr>
@@ -234,6 +236,7 @@
         </table>
     </div>
     <div id="table03" style="display:none">
+        <thead>075~051期 電子報</thead>
         <table class="table table-hover">
             <tbody>
                 <tr>
@@ -299,7 +302,8 @@
             </tbody>
         </table>
     </div>
-    <div id="table04" style="display:none">
+    <div id="table02" style="display:none">
+        <thead>050~026期 電子報</thead>
         <table class="table table-hover">
             <tbody>
                 <tr>
@@ -365,7 +369,8 @@
             </tbody>
         </table>
     </div>
-    <div id="table05" style="display:none">
+    <div id="table01" style="display:none">
+        <thead>025~001期 電子報</thead>
         <table class="table table-hover">
             <tbody>
                 <tr>

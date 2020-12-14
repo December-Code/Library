@@ -6,10 +6,12 @@ using namespace std;
 int main()
 {
     fstream file;
-    int startCount = 1; //從1開始
-    int endCount = 100; // TODO input Endnumber
+    int startCount; //從1開始
+    int endCount;   // TODO input Endnumber
     cout << "input which number start?" << endl;
     cin >> startCount;
+    cout << "input which number End?" << endl;
+    cin >> endCount;
 
     file.open("Web.txt", ios::out);
     if (file.fail())
@@ -17,7 +19,7 @@ int main()
     else
     {
         int startCount_add = 0;
-        for (int i = startCount + 99; i > startCount - 1; i--)
+        for (int i = endCount; i > startCount - 1; i--)
         {
             if (startCount_add % 5 == 0)
             {
@@ -32,7 +34,7 @@ int main()
             file << "\">";
             file << setw(3) << setfill('0') << to_string(i);
             file << "期</a></td>" << endl;
-            if (startCount_add % 5 == 4)
+            if (startCount_add % 5 == 4 or i == startCount)
             {
                 file << "</tr>" << endl;
             }
