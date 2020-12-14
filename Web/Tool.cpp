@@ -6,19 +6,20 @@ using namespace std;
 int main()
 {
     fstream file;
-    int count = 1; //從1開始
+    int startCount = 1; //從1開始
+    int endCount = 100; // TODO input Endnumber
     cout << "input which number start?" << endl;
-    cin >> count;
+    cin >> startCount;
 
     file.open("Web.txt", ios::out);
     if (file.fail())
         cout << "Can't open the file";
     else
     {
-        int count_add = 0;
-        for (int i = count + 99; i > count - 1; i--)
+        int startCount_add = 0;
+        for (int i = startCount + 99; i > startCount - 1; i--)
         {
-            if (count_add % 4 == 0)
+            if (startCount_add % 5 == 0)
             {
                 file << "<tr>" << endl;
             }
@@ -31,11 +32,11 @@ int main()
             file << "\">";
             file << setw(3) << setfill('0') << to_string(i);
             file << "期</a></td>" << endl;
-            if (count_add % 4 == 3)
+            if (startCount_add % 5 == 4)
             {
                 file << "</tr>" << endl;
             }
-            count_add += 1;
+            startCount_add += 1;
         }
         file.close();
         cout << "Success" << endl;
