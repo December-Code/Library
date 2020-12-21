@@ -1,4 +1,16 @@
 <tr>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter126.pdf"
+target="_blank" title="126">126期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter125.pdf"
+target="_blank" title="125">125期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter124.pdf"
+target="_blank" title="124">124期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter123.pdf"
+target="_blank" title="123">123期</a></td>
+<td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter122.pdf"
+target="_blank" title="122">122期</a></td>
+</tr>
+<tr>
 <td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter121.pdf"
 target="_blank" title="121">121期</a></td>
 <td><a href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter120.pdf"
