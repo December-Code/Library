@@ -47,7 +47,7 @@ namespace Thesis_Excel
                         if (extension == ".xls")
                         {
 
-                            status_content.Text = " => XLS格式";
+                            status_content.Text = "XLS格式";
                             reader = ExcelReaderFactory.CreateBinaryReader(stream, new ExcelReaderConfiguration()
                             {
                                 FallbackEncoding = Encoding.GetEncoding("big5")
@@ -55,12 +55,12 @@ namespace Thesis_Excel
                         }
                         else if (extension == ".xlsx")
                         {
-                            status_content.Text = " => XLSX格式";
+                            status_content.Text = "XLSX格式";
                             reader = ExcelReaderFactory.CreateOpenXmlReader(stream);
                         }
                         else if (extension == ".csv")
                         {
-                            status_content.Text = " => CSV格式";
+                            status_content.Text = " CSV格式";
                             reader = ExcelReaderFactory.CreateCsvReader(stream, new ExcelReaderConfiguration()
                             {
                                 FallbackEncoding = Encoding.GetEncoding("big5")
@@ -69,14 +69,40 @@ namespace Thesis_Excel
                         /////////////////////////////////////////讀取檔案結束///////////////////////////////////
                         if (reader == null)
                         {
-                            status_content.Text = "錯誤檔案格式：" + extension;
+                            MessageBox.Show("錯誤檔案格式：" + extension);
+                            status_content.Text = "錯誤檔案格式";
+                        }
+                        using (reader)
+                        {
+
+                            result = reader.AsDataSet(new ExcelDataSetConfiguration()
+                            {
+                                UseColumnDataType = false,
+                                ConfigureDataTable = (tableReader) => new ExcelDataTableConfiguration()
+                                {
+                                    //設定讀取資料時是否忽略標題
+                                    UseHeaderRow = false
+                                }
+                            });
+                            //把 DataSet 顯示出來
+                            var table = result.Tables[0];
+                            for (int row = 0; row < table.Rows.Count; row++)
+                            {
+                                for (var col = 0; col < table.Columns.Count; col++)
+                                {
+                                    string data = table.Rows[row][col].ToString();                            
+                                }
+                            }
                         }
                     }//using FileStream 內
                 }
+                else
+                {
+                    MessageBox.Show("檔案不存在");
+                }
             }
-        }
 
+        }
     }
 }
-
 
