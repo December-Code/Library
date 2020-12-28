@@ -45,7 +45,7 @@ namespace Thesis_Excel
             // 
             // Upload
             // 
-            this.Upload.Location = new System.Drawing.Point(353, 404);
+            this.Upload.Location = new System.Drawing.Point(812, 338);
             this.Upload.Name = "Upload";
             this.Upload.Size = new System.Drawing.Size(80, 34);
             this.Upload.TabIndex = 0;
@@ -63,7 +63,7 @@ namespace Thesis_Excel
             this.Execel_preview.ReadOnly = true;
             this.Execel_preview.RowHeadersWidth = 62;
             this.Execel_preview.RowTemplate.Height = 31;
-            this.Execel_preview.Size = new System.Drawing.Size(520, 330);
+            this.Execel_preview.Size = new System.Drawing.Size(1044, 330);
             this.Execel_preview.TabIndex = 1;
             // 
             // tableLayoutPanel1
@@ -73,7 +73,7 @@ namespace Thesis_Excel
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 447F));
             this.tableLayoutPanel1.Controls.Add(this.Name_label, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.FileName, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 334);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(296, 336);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -100,12 +100,13 @@ namespace Thesis_Excel
             // 
             // Convert
             // 
-            this.Convert.Location = new System.Drawing.Point(439, 404);
+            this.Convert.Location = new System.Drawing.Point(920, 396);
             this.Convert.Name = "Convert";
-            this.Convert.Size = new System.Drawing.Size(80, 34);
+            this.Convert.Size = new System.Drawing.Size(116, 34);
             this.Convert.TabIndex = 3;
             this.Convert.Text = "Convert";
             this.Convert.UseVisualStyleBackColor = true;
+            this.Convert.Click += new System.EventHandler(this.Convert_Click);
             // 
             // status_label
             // 
@@ -115,7 +116,7 @@ namespace Thesis_Excel
             this.status_label.Name = "status_label";
             this.status_label.Size = new System.Drawing.Size(49, 18);
             this.status_label.TabIndex = 4;
-            this.status_label.Text = "狀態:";
+            this.status_label.Text = "格式:";
             // 
             // tableLayoutPanel2
             // 
@@ -124,7 +125,7 @@ namespace Thesis_Excel
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 144F));
             this.tableLayoutPanel2.Controls.Add(this.status_label, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.status_content, 1, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 394);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 336);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -137,22 +138,22 @@ namespace Thesis_Excel
             this.status_content.AutoSize = true;
             this.status_content.Location = new System.Drawing.Point(59, 6);
             this.status_content.Name = "status_content";
-            this.status_content.Size = new System.Drawing.Size(44, 18);
+            this.status_content.Size = new System.Drawing.Size(62, 18);
             this.status_content.TabIndex = 5;
-            this.status_content.Text = "正常";
+            this.status_content.Text = "未輸入";
             // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(528, 444);
+            this.ClientSize = new System.Drawing.Size(1048, 442);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.Convert);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.Execel_preview);
             this.Controls.Add(this.Upload);
             this.Name = "main";
-            this.Text = "Excel_Convert";
+            this.Text = "Convert";
             ((System.ComponentModel.ISupportInitialize)(this.Execel_preview)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using ExcelDataReader;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Data;
+using Excel = Microsoft.Office.Interop.Excel;
 using System.Windows.Forms;
 using System.IO;
 
@@ -18,7 +14,8 @@ namespace Thesis_Excel
         {
             InitializeComponent();
         }
-
+        bool uploaded = false;
+        DataSet result;
         private void Upload_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFile = new OpenFileDialog();
@@ -30,11 +27,6 @@ namespace Thesis_Excel
                 filePath = openFile.FileName;
                 FileName.Text = filePath;
             }
-
-
-            DataSet result;
-            DataRowCollection dataRow;
-            DataColumnCollection dataColumn;
 
             if (filePath != null)
             {
@@ -72,26 +64,24 @@ namespace Thesis_Excel
                             MessageBox.Show("錯誤檔案格式：" + extension);
                             status_content.Text = "錯誤檔案格式";
                         }
-                        using (reader)
+                        else
                         {
-
-                            result = reader.AsDataSet(new ExcelDataSetConfiguration()
+                            Execel_preview.DataSource = "";
+                            using (reader)
                             {
-                                UseColumnDataType = false,
-                                ConfigureDataTable = (tableReader) => new ExcelDataTableConfiguration()
+                                result = reader.AsDataSet(new ExcelDataSetConfiguration()
                                 {
-                                    //設定讀取資料時是否忽略標題
-                                    UseHeaderRow = false
-                                }
-                            });
-                            //把 DataSet 顯示出來
-                            var table = result.Tables[0];
-                            for (int row = 0; row < table.Rows.Count; row++)
-                            {
-                                for (var col = 0; col < table.Columns.Count; col++)
-                                {
-                                    string data = table.Rows[row][col].ToString();                            
-                                }
+                                    UseColumnDataType = false,
+                                    ConfigureDataTable = (tableReader) => new ExcelDataTableConfiguration()
+                                    {
+                                        //設定讀取資料時是否忽略標題
+                                        UseHeaderRow = false
+                                    }
+                                });
+                                //把 DataSet 顯示出來
+                                DataTable tableOutput = result.Tables[0];
+                                Execel_preview.DataSource = tableOutput;
+                                uploaded = true;
                             }
                         }
                     }//using FileStream 內
@@ -102,6 +92,69 @@ namespace Thesis_Excel
                 }
             }
 
+        }
+
+        private void Convert_Click(object sender, EventArgs e)
+        {
+            if (uploaded)
+            {
+                DataSet DatasetExport = new DataSet();
+                DataTable tableExport = result.Tables[0];
+                for (int row = 0; row < tableExport.Rows.Count; row++)
+                {
+                    for (var col = 0; col < tableExport.Columns.Count; col++)
+                    {
+                        string data = tableExport.Rows[row][col].ToString();
+                    }
+                }
+                DatasetExport.Tables.Add(tableExport.Copy());
+
+                ExportDataSetToExcel(DatasetExport);
+            }
+            else
+            {
+                MessageBox.Show("請先匯入檔案");
+            }
+        }
+        private static void ExportDataSetToExcel(DataSet ds)
+        {
+            SaveFileDialog Save = new SaveFileDialog();
+            if (Save.ShowDialog() == DialogResult.OK)
+            {                
+                //Creae an Excel application instance
+                Excel.Application excelApp = new Excel.Application();
+
+                //Create an Excel workbook instance and open it from the predefined location
+                Excel.Workbook excelWorkBook = excelApp.Workbooks.Add(1);
+
+                foreach (DataTable table in ds.Tables)
+                {
+                    //Add a new worksheet to workbook with the Datatable name
+                    Excel.Worksheet excelWorkSheet = excelWorkBook.Sheets.Add();
+
+                    excelWorkSheet.Name = table.TableName;
+
+                    for (int i = 1; i < table.Columns.Count + 1; i++)
+                    {
+                        excelWorkSheet.Cells[1, i] = table.Columns[i - 1].ColumnName;
+                    }
+
+                    for (int j = 0; j < table.Rows.Count; j++)
+                    {
+                        for (int k = 0; k < table.Columns.Count; k++)
+                        {
+                            excelWorkSheet.Cells[j + 2, k + 1] = table.Rows[j].ItemArray[k].ToString();
+                        }
+                    }
+                }
+                excelWorkBook.SaveCopyAs(@"Test.xls");
+                excelWorkBook.SaveAs(@"Test.xls");
+
+                //excelWorkBook.SaveCopyAs(Save + @"Test.xls");
+                MessageBox.Show("完成囉!!");
+                excelWorkBook.Close();
+                excelApp.Quit();
+            }
         }
     }
 }
