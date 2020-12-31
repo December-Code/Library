@@ -118,7 +118,7 @@ namespace Thesis_Excel
         }
         private static void ExportDataSetToExcel(DataSet ds)
         {
-            SaveFileDialog Save = new SaveFileDialog();
+            FolderBrowserDialog Save = new FolderBrowserDialog();
             if (Save.ShowDialog() == DialogResult.OK)
             {                
                 //Creae an Excel application instance
@@ -147,10 +147,7 @@ namespace Thesis_Excel
                         }
                     }
                 }
-                excelWorkBook.SaveCopyAs(@"Test.xls");
-                excelWorkBook.SaveAs(@"Test.xls");
-
-                //excelWorkBook.SaveCopyAs(Save + @"Test.xls");
+                excelWorkBook.SaveAs(@Save+"Test.xlsx");
                 MessageBox.Show("完成囉!!");
                 excelWorkBook.Close();
                 excelApp.Quit();
