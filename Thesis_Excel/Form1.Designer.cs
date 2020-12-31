@@ -51,7 +51,6 @@ namespace Thesis_Excel
             this.Upload.TabIndex = 0;
             this.Upload.Text = "Upload";
             this.Upload.UseVisualStyleBackColor = true;
-            this.Upload.Click += new System.EventHandler(this.Upload_Click);
             // 
             // Execel_preview
             // 
