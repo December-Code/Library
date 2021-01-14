@@ -4,6 +4,7 @@ using System.Data;
 using ExcelDataReader;
 using System.Windows.Forms;
 using System.IO;
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace Thesis_Excel
 {
@@ -97,7 +98,7 @@ namespace Thesis_Excel
         {
             if (uploaded)
             {
-                DataSet DatasetExport = new DataSet();
+                DataSet DatasetExportSet = new DataSet();
                 DataTable tableExport = result.Tables[0];
                 for (int row = 0; row < tableExport.Rows.Count; row++)
                 {
@@ -106,68 +107,65 @@ namespace Thesis_Excel
                         string data = tableExport.Rows[row][col].ToString();
                     }
                 }
-                DatasetExport.Tables.Add(tableExport.Copy());
+                for (int row = 0; row < tableExport.Rows.Count; row++)
+                {
+                    for (var col = 0; col < tableExport.Columns.Count; col++)
+                    {
+                        tableExport.Rows[0][col] = "test";
+                    }
+                }
 
-                ExportDataSetToExcel(DatasetExport);
+                tableExport.Rows[0]["column1"] = DateTime.Now;
+
+
+
+
+                DatasetExportSet.Tables.Add(tableExport.Copy());
+                ExportDataSetToExcel(DatasetExportSet);
             }
             else
             {
                 MessageBox.Show("請先匯入檔案");
             }
         }
+
         private static void ExportDataSetToExcel(DataSet ds)
         {
-            FileInfo fileInfo = new FileInfo(pathName);
-
-            using (ExcelPackage packge = new ExcelPackage(fileInfo))
+            FolderBrowserDialog Save = new FolderBrowserDialog();
+            if (Save.ShowDialog() == DialogResult.OK)
             {
-                ExcelWorksheet worksheet = packge.Workbook.Worksheets[sheetName];
+                //Creae an Excel application instance
+                Excel.Application excelApp = new Excel.Application();
 
-                for (int i = 0; i < newInfoArray.Length; ++i)
+                //Create an Excel workbook instance and open it from the predefined location
+                Excel.Workbook excelWorkBook = excelApp.Workbooks.Add(1);
+
+                foreach (DataTable table in ds.Tables)
                 {
-                    worksheet.Cells[selectIndex + 2, i + 1].Value = newInfoArray[i];
-                }
+                    //Add a new worksheet to workbook with the Datatable name
+                    Excel.Worksheet excelWorkSheet = excelWorkBook.Sheets.Add();
 
-                packge.Save();
+                    excelWorkSheet.Name = table.TableName;
+
+                    for (int i = 1; i < table.Columns.Count; i++)
+                    {
+                        excelWorkSheet.Cells[1, i] = table.Columns[i].ColumnName;
+                    }
+
+                    for (int j = 0; j < table.Rows.Count; j++)
+                    {
+                        for (int k = 0; k < table.Columns.Count-1; k++)
+                        {
+                            excelWorkSheet.Cells[j + 1, k + 1] = table.Rows[j+1].ItemArray[k].ToString();
+                        }
+                    }
+                }
+                excelWorkBook.SaveAs(Save.SelectedPath + "/Test.xlsx");
+                MessageBox.Show("完成囉!!");
+                excelWorkBook.Close();
+                excelApp.Quit();
             }
         }
-        //private static void ExportDataSetToExcel(DataSet ds)
-        //{
-        //    FolderBrowserDialog Save = new FolderBrowserDialog();
-        //    if (Save.ShowDialog() == DialogResult.OK)
-        //    {                
-        //        //Creae an Excel application instance
-        //        Excel.Application excelApp = new Excel.Application();
-
-        //        //Create an Excel workbook instance and open it from the predefined location
-        //        Excel.Workbook excelWorkBook = excelApp.Workbooks.Add(1);
-
-        //        foreach (DataTable table in ds.Tables)
-        //        {
-        //            //Add a new worksheet to workbook with the Datatable name
-        //            Excel.Worksheet excelWorkSheet = excelWorkBook.Sheets.Add();
-
-        //            excelWorkSheet.Name = table.TableName;
-
-        //            for (int i = 1; i < table.Columns.Count + 1; i++)
-        //            {
-        //                excelWorkSheet.Cells[1, i] = table.Columns[i - 1].ColumnName;
-        //            }
-
-        //            for (int j = 0; j < table.Rows.Count; j++)
-        //            {
-        //                for (int k = 0; k < table.Columns.Count; k++)
-        //                {
-        //                    excelWorkSheet.Cells[j + 2, k + 1] = table.Rows[j].ItemArray[k].ToString();
-        //                }
-        //            }
-        //        }
-        //        excelWorkBook.SaveAs(@Save+"Test.xlsx");
-        //        MessageBox.Show("完成囉!!");
-        //        excelWorkBook.Close();
-        //        excelApp.Quit();
-        //    }
-        //}
     }
 }
 

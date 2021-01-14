@@ -43,6 +43,6 @@ int main()
         file.close();
         cout << "Successly" << endl;
     }
-
+    system("pause");
     return 0;
 }
