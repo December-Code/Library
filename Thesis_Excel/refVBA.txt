@@ -1,0 +1,45 @@
+Sub AutoSearch()
+
+Dim myRng_Name As Range, NameRng As Range
+Dim myRng_Topic As Range, TopicRng As Range
+Dim i, rowNum As Long
+Dim firstAddress As String
+
+rowNum = Cells(Rows.Count, 1).End(xlUp).Row
+'MsgBox "最後一列：" & rowNum
+
+Set TopicRng = Application.Intersect(Worksheets("DataBase").Range("A:A"), Worksheets("DataBase").Cells.Parent.UsedRange)
+Set NameRng = Application.Intersect(Worksheets("DataBase").Range("D:D"), Worksheets("DataBase").Cells.Parent.UsedRange)
+
+For i = 2 To rowNum
+
+Set myRng_Name = NameRng.Find(what:=Worksheets("Search").Cells(i, "B"), LookAt:=xlWhole)
+Set myRng_Topic = TopicRng.Find(what:=Worksheets("Search").Cells(i, "D"), LookAt:=xlPart)
+
+If Not myRng_Name Is Nothing Then
+If Not myRng_Topic Is Nothing Then
+
+    Worksheets("Search").Cells(i, "E") = Worksheets("DataBase").Cells(myRng_Name.Row, "B") '論文名稱(外文)
+    Worksheets("Search").Cells(i, "H") = Worksheets("DataBase").Cells(myRng_Name.Row, "H") '論文摘要
+    Worksheets("Search").Cells(i, "C") = Worksheets("DataBase").Cells(myRng_Name.Row, "E") '研究生(外文)
+    Worksheets("Search").Cells(i, "F") = Worksheets("DataBase").Cells(myRng_Name.Row, "F") '中關鍵字
+    Worksheets("Search").Cells(i, "G") = Worksheets("DataBase").Cells(myRng_Name.Row, "G") '英關鍵字
+    Worksheets("Search").Cells(i, "I") = Worksheets("DataBase").Cells(myRng_Name.Row, "I") '論文外文摘要
+    Worksheets("Search").Cells(i, "J") = Worksheets("DataBase").Cells(myRng_Name.Row, "J") '論文目次
+
+
+End If
+End If
+Next i
+MsgBox "輸出完畢!"
+End Sub
+
+'If Not myRng_Name Is Nothing Then
+'Cells(2, "K") = "有這個名字"
+'Cells(3, "K") = myRng_Name.Row
+'End If
+
+'If Not myRng_Topic Is Nothing Then
+'Cells(2, "L") = "有這個論文"
+'Cells(3, "L") = myRng_Topic.Row
+'End If
