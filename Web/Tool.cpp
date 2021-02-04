@@ -28,7 +28,7 @@ int main()
             file << "<td><a href=";
             file << "\"https://library-r.ntust.edu.tw/var/file/49/1049/img/2781/Newsletter";
             file << setw(3) << setfill('0') << to_string(i);
-            file << ".pdf\"" << endl;
+            file << ".html\"" << endl;
             file << "target=\"_blank\" title=\"";
             file << setw(3) << setfill('0') << to_string(i);
             file << "\">";
