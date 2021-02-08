@@ -10,10 +10,27 @@
       <meta name="viewport" content="initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=3.0">
       <meta name="apple-mobile-web-app-capable" content="yes">
       <meta name="apple-mobile-web-app-status-bar-style" content="black">
-      <title>Readers Services</title>
+      <title>Reference Service</title>
       <!--重要引用 -->
       <link rel="stylesheet" href="https://library-r.ntust.edu.tw/var/file/49/1049/img/2757/combine-zh-tw.css"
             type="text/css">
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+      <script type="text/javascript">
+            $(document).ready(function () {
+                  $('.context').hide(); //隱藏
+                  $('h2').toggle(
+                        function () {
+                              $(this).next('.context').slideDown(); //滑上滑下效果-滑下
+                              // $(this).addClass('close'); //<h2>加上(減號)CSS 
+                        },
+                        function () {
+                              $(this).next('.context').slideUp(); //滑上滑下效果-滑上
+                              // $(this).removeClass('close'); //<h2>移除(減號)CSS 
+                        }
+                  ); // end of toggle()
+            }); // end ready
+      </script>
       <style type="text/css">
             .Anchortitle>h1 {
                   position: relative;
@@ -26,9 +43,18 @@
                   padding-top: 1em;
             }
 
+            h2.close {
+                  background-image: url(../_images/close.png);
+                  /* '-' 圖片 */
+            }
+
             .Anchortitle>h2 {
+                  /* background: url(../_images/open.png) no-repeat 0 11px;
+                  '+' 圖片 */
+                  cursor: pointer;
                   position: relative;
                   background: none;
+                  box-shadow: -4px -4px 3px rgba(20%, 20%, 40%, 0.5);
                   color: #0563c1;
                   font-weight: bold;
                   padding: 10px;
@@ -43,16 +69,6 @@
                   font-weight: bold;
                   padding: 10px;
                   font-size: 1.2em !important;
-            }
-
-            .context>h3 {
-                  position: relative;
-                  background: none;
-                  color: #000000;
-                  font-weight: bold;
-                  padding-top: 20px;
-                  padding-left: 20px;
-                  font-size: 1.25em !important;
             }
 
             .context>p {
@@ -82,9 +98,9 @@
 <body>
       <div class="Anchortitle">
             <h1 id="top">Reference Service</h1>
-            <h2><a href="#Research">1.Research consultation</a></h2>
-            <div class="context" id="Research">
-                  <!-- <h3 id="Research">1.Research consultation</h3> -->
+
+            <h2 id="Research">1.Research consultation</h2>
+            <div class="context">
                   <p>
                         The Library offers a one-on-one research consultation service to all
                         NTUST faculty members and students to assist them in
@@ -100,9 +116,8 @@
                   <p>General and specific workshops and seminars are arranged from time to time.
                         Please check our programs and register.</p>
             </div>
-            <h2><a href="#E-Resource">2.E-Resource Service</a></h2>
-            <div class="context" id="E-Resource">
-                  <!-- <h3 id="E-Resource">2.E-Resource Service</h3> -->
+            <h2 id="E-Resource">2.E-Resource Service</h2>
+            <div class="context">
                   <p>The library has subscribed
                         to a wide variety of online resources including e-books,</p>
                   <p>periodicals and newspapers, thesis and dissertations,
