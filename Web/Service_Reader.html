@@ -26,9 +26,18 @@
                   padding-top: 1em;
             }
 
-            .Anchortitle>h2 {
+            h2.close {
+                  background-image: url(../_images/close.png);
+                  /* '-' 圖片 */
+            }
+
+            .h2btn {
+                  /* background: url(../_images/open.png) no-repeat 0 11px;
+                            '+' 圖片 */
+                  cursor: pointer;
                   position: relative;
                   background: none;
+                  box-shadow: -4px -4px 3px rgba(20%, 20%, 40%, 0.5);
                   color: #0563c1;
                   font-weight: bold;
                   padding: 10px;
@@ -45,16 +54,6 @@
                   font-size: 1.2em !important;
             }
 
-            .context>h3 {
-                  position: relative;
-                  background: none;
-                  color: #000000;
-                  font-weight: bold;
-                  padding-top: 20px;
-                  padding-left: 20px;
-                  font-size: 1.0em !important;
-            }
-
             .context>p {
                   position: relative;
                   background: none;
@@ -64,7 +63,6 @@
                   padding-left: 35px;
                   font-size: 1.2em !important;
                   line-height: 250%;
-                  text-indent: 24.0pt;
             }
 
             .GoTop {
@@ -77,84 +75,130 @@
                   text-decoration: underline;
             }
       </style>
+
+      <script>
+            var Still = "none";
+
+            function dispaly(Condition) {
+
+                  switch (Condition) {
+                        case 1:
+                              context = "context1"
+                              break;
+                        case 2:
+                              context = "context2"
+                              break;
+                        case 3:
+                              context = "context3"
+                              break;
+                        case 4:
+                              context = "context4"
+                              break;
+                        case 5:
+                              context = "context5"
+                              break;
+                        case 6:
+                              context = "context6"
+                              break;
+                        case 7:
+                              context = "context7"
+                              break;
+                  }
+
+                  var display = document.getElementById(context).style.display;
+                  if (display == "none") {
+                        document.getElementById(context).style.display = "block";
+                  } else if (display == "block") {
+                        document.getElementById(context).style.display = "none";
+                  }
+            }
+      </script>
 </head>
 
 <body>
       <div class="Anchortitle">
             <h1 id="top">Readers Services</h1>
-            <h2><a href="#Circulation">1.Circulation Service</a></h2>
-            <h2><a href="#LibraryCard">2.Library Card Application</a></h2>
-            <h2><a href="#LostCard">3.Lost Library Card</a></h2>
-            <h2><a href="#ItemsSeeking">4.Items Seeking Service</a></h2>
-            <h2><a href="#BookDrop">5.Book Drop Service</a></h2>
-            <h2><a href="#Audio-Vedio">6.Audio-Vedio material Service</a></h2>
-            <h2><a href="#Facilities">7.Library Facilities &amp Services</a></h2>
-      </div>
-      <div class="context">
-            <h3 id="Circulation">1.Circulation Service</h3>
-            <p>
-                  The University faculty, staff and students may borrow books
-                  in person at the library during the stipulated times using
-                  their faculty or staff ID, student ID or library card.
-                  Users must be follow the Circulation Rules and Privileges
-            </p>
-            <h3 id="LibraryCard">2.Library Card Application</h3>
-            <p>
-                  It is required for users who are not students or faculty of NTUST,
-                  as Alumni, Project Research Assistants, Retired Faculty/Staff,
-                  Visiting Scholars/Student, please fill out the Library Card
-                  Application Form to get a library card if they want to borrow items
-                  from NTUST library.
-            </p>
-            <div class="GoTop"><a href="#top">GoTop</a></div>
-            <h3 id="LostCard">3.Lost Library Card</h3>
-            <p>
-                  Library users will be responsible for any use made of the Library Card.
-                  For your protection, contact the Library immediately to report a lost or stolen card.
-                  You are responsible for anything borrowed on your card
-                  until it is reported lost or stolen to the Library.
-            </p>
-            <div class="GoTop"><a href="#top">GoTop</a></div>
-            <h3 id="ItemsSeeking">4.Items Seeking Service</h3>
-            <p>
-                  You can apply for "Seeking items" service
-                  if you are unable to find an available NTSUT item
-                  on the shelves, please Fill out
-                  「Item search Request Form」
-                  at the circulation desk.
-            </p>
-            <div class="GoTop"><a href="#top">GoTop</a></div>
-            <h3 id="BookDrop">5.Book Drop Service</h3>
-            <p>
-                  Readers may drop the to-be returned items and attachments
-                  in the book drop box located at the Library entrance when
-                  counters close. The return date will be the following
-                  service day.
-            </p>
-            <div class="GoTop"><a href="#top">GoTop</a></div>
-            <h3 id="Audio-Vedio">6.Audio-Vedio material Service</h3>
-            <p>
-                  AV Materials which located on the 1st floor,
-                  and can be checked out, has DVDs, CDs and multi- media materials
-                  of general subjects to support the research,
-                  study and recreation needs of faculty and students.
-            </p>
-            <p>
-                  AV Materials which located on the 2nd floor,
-                  are public Releases and provides equipment
-                  for users to view here.
-            </p>
-            <div class="GoTop"><a href="#top">GoTop</a></div>
-            <h3 id="Facilities">7.Library Facilities &amp Services</h3>
-            <p>
-                  The Library has networked computers,
-                  bookable Group Study rooms where you can practice your
-                  presentations or have meetings and silent study areas.
-                  There are colour, black and white printing/ photocopying
-                  services available. We have wireless access throughout the
-                  University and a self-service laptop loan facility.
-            </p>
-            <div class="GoTop"><a href="#top">GoTop</a></div>
+
+
+            <h2 class="h2btn" onclick="dispaly(1)">1.Circulation Service</h2>
+            <div class="context" id="context1" style="display:none">
+                  <p>
+                        The University faculty, staff and students may borrow books
+                        in person at the library during the stipulated times using
+                        their faculty or staff ID, student ID or library card.
+                        Users must be follow the Circulation Rules and Privileges
+                  </p>
+
+            </div>
+            <h2 class="h2btn" onclick="dispaly(2)">2.Library Card Application</h2>
+            <div class="context" id="context2" style="display:none">
+                  <p>
+                        It is required for users who are not students or faculty of NTUST,
+                        as Alumni, Project Research Assistants, Retired Faculty/Staff,
+                        Visiting Scholars/Student, please fill out the Library Card
+                        Application Form to get a library card if they want to borrow items
+                        from NTUST library.
+                  </p>
+                  <div class="GoTop"><a href="#top">GoTop</a></div>
+            </div>
+            <h2 class="h2btn" onclick="dispaly(3)">3.Lost Library Card</h2>
+            <div class="context" id="context3" style="display:none">
+                  <p>
+                        Library users will be responsible for any use made of the Library Card.
+                        For your protection, contact the Library immediately to report a lost or stolen card.
+                        You are responsible for anything borrowed on your card
+                        until it is reported lost or stolen to the Library.
+                  </p>
+                  <div class="GoTop"><a href="#top">GoTop</a></div>
+            </div>
+            <h2 class="h2btn" onclick="dispaly(4)">4.Items Seeking Service</h2>
+            <div class="context" id="context4" style="display:none">
+                  <p>
+                        You can apply for "Seeking items" service
+                        if you are unable to find an available NTSUT item
+                        on the shelves, please Fill out
+                        「Item search Request Form」
+                        at the circulation desk.
+                  </p>
+                  <div class="GoTop"><a href="#top">GoTop</a></div>
+            </div>
+            <h2 class="h2btn" onclick="dispaly(5)">5.Book Drop Service</h2>
+            <div class="context" id="context5" style="display:none">
+                  <p>
+                        Readers may drop the to-be returned items and attachments
+                        in the book drop box located at the Library entrance when
+                        counters close. The return date will be the following
+                        service day.
+                  </p>
+                  <div class="GoTop"><a href="#top">GoTop</a></div>
+            </div>
+            <h2 class="h2btn" onclick="dispaly(6)">6.Audio-Vedio material Service</h2>
+            <div class="context" id="context6" style="display:none">
+                  <p>
+                        AV Materials which located on the 1st floor,
+                        and can be checked out, has DVDs, CDs and multi- media materials
+                        of general subjects to support the research,
+                        study and recreation needs of faculty and students.
+                  </p>
+                  <p>
+                        AV Materials which located on the 2nd floor,
+                        are public Releases and provides equipment
+                        for users to view here.
+                  </p>
+                  <div class="GoTop"><a href="#top">GoTop</a></div>
+            </div>
+            <h2 class="h2btn" onclick="dispaly(7)">7.Library Facilities &amp Services</h2>
+            <div class="context" id="context7" style="display:none">
+                  <p>
+                        The Library has networked computers,
+                        bookable Group Study rooms where you can practice your
+                        presentations or have meetings and silent study areas.
+                        There are colour, black and white printing/ photocopying
+                        services available. We have wireless access throughout the
+                        University and a self-service laptop loan facility.
+                  </p>
+                  <div class="GoTop"><a href="#top">GoTop</a></div>
+            </div>
       </div>
 </body>
 

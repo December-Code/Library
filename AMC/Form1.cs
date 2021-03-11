@@ -134,14 +134,14 @@ namespace AMC
             HtmlTxt.AppendLine("<td height=\"50px\" colspan=\"2\" class=\"label_title\">" + years + "&emsp;" + month + "&emsp;" + monthString + "</td>");
             HtmlTxt.AppendLine("</tr>");
             HtmlTxt.AppendLine("<tr>");
-            HtmlTxt.AppendLine("<td width=\"376\" class=\"text\">");
+            HtmlTxt.AppendLine("<td width=\"375\" class=\"text\">");
             HtmlTxt.AppendLine("<div class=\"label_title\"><img");
             HtmlTxt.AppendLine("src=\"http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/img/studio.gif" + "\" alt=\"\" width=\"189\"");
             HtmlTxt.AppendLine("height=\"47\" border=\"0\"></div>");
-            HtmlTxt.AppendLine("<table width=\"374\" border=\"0\" cellspacing=\"0\" bordercolorlight=\"#FF9900\" class=\"table_calender\">");
+            HtmlTxt.AppendLine("<table width=\"375\" border=\"0\" cellspacing=\"0\" bordercolorlight=\"#FF9900\" class=\"table_calender\">");
             HtmlTxt.AppendLine("<tr>");
             HtmlTxt.AppendLine("<td>");
-            HtmlTxt.AppendLine("<table width=\"374\" border=\"3\" cellpadding=\"3\" cellspacing=\"5\" height=\"289\">");
+            HtmlTxt.AppendLine("<table width=\"375\" border=\"3\" cellpadding=\"3\" cellspacing=\"5\" height=\"289\">");
             HtmlTxt.AppendLine("<tr class=\"label\">");
             HtmlTxt.AppendLine("<td width=\"38\" class=\"label_calender_SC\">Sun</td>");
             HtmlTxt.AppendLine("<td width=\"38\" class=\"label_calender_SC\">Mon</td>");
@@ -207,7 +207,7 @@ namespace AMC
             HtmlTxt.AppendLine("<div class=\"label_title\"><img");
             HtmlTxt.AppendLine("src=\"http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/img/reading.gif" + "\" alt=\"\" width=\"189\"");
             HtmlTxt.AppendLine("border=\"0\"></div>");
-            HtmlTxt.AppendLine("<table width=\"365\" border=\"3\" cellpadding=\"3\" cellspacing=\"5\">");
+            HtmlTxt.AppendLine("<table width=\"375\" border=\"3\" cellpadding=\"3\" cellspacing=\"5\">");
             HtmlTxt.AppendLine("<tr bordercolorlight=\"#FF9900\" class=\"label\">");
             HtmlTxt.AppendLine("<td width=\"38\" class=\"label_calender_SC\">Sun</td>");
             HtmlTxt.AppendLine("<td width=\"38\" class=\"label_calender_SC\">Mon</td>");
@@ -268,14 +268,14 @@ namespace AMC
             HtmlTxt.AppendLine("</td>");
 
             ////////////////////////////////////////////////////////////Advance//////////////////////////////////////////////////////////////////
-            HtmlTxt.AppendLine("<td width=\"376\" class=\"text\" height=\"602\">");
+            HtmlTxt.AppendLine("<td width=\"375\" class=\"text\" height=\"602\">");
             HtmlTxt.AppendLine("<div class=\"label_title\"><img");
             HtmlTxt.AppendLine("src=\"http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/img/advance.gif" + "\" alt=\"\" width=\"189\"");
             HtmlTxt.AppendLine("height=\"46\" border=\"0\"></div>");
-            HtmlTxt.AppendLine("<table width=\"374\" border=\"0\" cellspacing=\"0\" bordercolorlight=\"#FF9900\" class=\"table_calender\">");
+            HtmlTxt.AppendLine("<table width=\"375\" border=\"0\" cellspacing=\"0\" bordercolorlight=\"#FF9900\" class=\"table_calender\">");
             HtmlTxt.AppendLine("<tr>");
             HtmlTxt.AppendLine("<td>");
-            HtmlTxt.AppendLine("<table width=\"374\" border=\"3\" cellpadding=\"3\" cellspacing=\"5\" height=\"289\">");
+            HtmlTxt.AppendLine("<table width=\"375\" border=\"3\" cellpadding=\"3\" cellspacing=\"5\" height=\"289\">");
             HtmlTxt.AppendLine("<tr class=\"label\">");
             HtmlTxt.AppendLine("<td width=\"38\" class=\"label_calender_AD\">Sun</td>");
             HtmlTxt.AppendLine("<td width=\"38\" class=\"label_calender_AD\">Mon</td>");
@@ -337,7 +337,7 @@ namespace AMC
             HtmlTxt.AppendLine("<div class=\"label_title\"><img");
             HtmlTxt.AppendLine("src=\"http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/img/reading.gif" + "\" alt=\"\" width=\"189\"");
             HtmlTxt.AppendLine("border=\"0\"></div>");
-            HtmlTxt.AppendLine("<table width=\"374\" border=\"3\" cellpadding=\"3\" cellspacing=\"5\">");
+            HtmlTxt.AppendLine("<table width=\"375\" border=\"3\" cellpadding=\"3\" cellspacing=\"5\">");
             HtmlTxt.AppendLine("<tr bordercolorlight=\"#FF9900\" class=\"label\">");
             HtmlTxt.AppendLine("<td width=\"38\" class=\"label_calender_AD\">Sun</td>");
             HtmlTxt.AppendLine("<td width=\"38\" class=\"label_calender_AD\">Mon</td>");

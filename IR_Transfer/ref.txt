@@ -1,0 +1,7 @@
+http://forum.twbts.com/viewthread.php?tid=21077&extra=pageD1&page=1 重複
+For i = 1 To UBound(Arr)
+    T = Arr(i, 1):  U = xD(T):  Arr(i, 1) = ""
+    If U > 0 Then Arr(U, 1) = "重覆": xD(T) = -1: U = -1
+    If U < 0 Then Arr(i, 1) = "重覆"
+    If U = 0 Then xD(T) = i
+Next i

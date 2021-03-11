@@ -1,20 +1,20 @@
 <p>&nbsp;</p>
-<p><a id = "202307" ></a></p>
+<p><a id = "202103" ></a></p>
 <p>&nbsp;</p>
 <table width="770" border="1" cellpadding="0" cellspacing="5" class="table" bordercolor="#CC6600"
 style="border-style: outset; " height="677">
 <tr>
-<td height="50px" colspan="2" class="label_title">2023&emsp;7&emsp;July</td>
+<td height="50px" colspan="2" class="label_title">2021&emsp;3&emsp;March</td>
 </tr>
 <tr>
-<td width="376" class="text">
+<td width="375" class="text">
 <div class="label_title"><img
 src="http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/img/studio.gif" alt="" width="189"
 height="47" border="0"></div>
-<table width="374" border="0" cellspacing="0" bordercolorlight="#FF9900" class="table_calender">
+<table width="375" border="0" cellspacing="0" bordercolorlight="#FF9900" class="table_calender">
 <tr>
 <td>
-<table width="374" border="3" cellpadding="3" cellspacing="5" height="289">
+<table width="375" border="3" cellpadding="3" cellspacing="5" height="289">
 <tr class="label">
 <td width="38" class="label_calender_SC">Sun</td>
 <td width="38" class="label_calender_SC">Mon</td>
@@ -26,116 +26,107 @@ height="47" border="0"></div>
 </tr>
 <tr class="text">
 <td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230701.MP3">1</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210301.MP3">1</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210302.MP3">2</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210303.MP3">3</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210304.MP3">4</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210305.MP3">5</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210306.MP3">6</a>
 </td>
 </tr>
 <tr class="text">
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230702.MP3">2</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210307.MP3">7</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230703.MP3">3</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210308.MP3">8</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230704.MP3">4</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210309.MP3">9</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230705.MP3">5</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210310.MP3">10</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230706.MP3">6</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210311.MP3">11</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230707.MP3">7</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210312.MP3">12</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230708.MP3">8</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210313.MP3">13</a>
 </td>
 </tr>
 <tr class="text">
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230709.MP3">9</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210314.MP3">14</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230710.MP3">10</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210315.MP3">15</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230711.MP3">11</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210316.MP3">16</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230712.MP3">12</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210317.MP3">17</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230713.MP3">13</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210318.MP3">18</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230714.MP3">14</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210319.MP3">19</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230715.MP3">15</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210320.MP3">20</a>
 </td>
 </tr>
 <tr class="text">
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230716.MP3">16</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210321.MP3">21</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230717.MP3">17</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210322.MP3">22</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230718.MP3">18</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210323.MP3">23</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230719.MP3">19</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210324.MP3">24</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230720.MP3">20</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210325.MP3">25</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230721.MP3">21</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210326.MP3">26</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230722.MP3">22</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210327.MP3">27</a>
 </td>
 </tr>
 <tr class="text">
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230723.MP3">23</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210328.MP3">28</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230724.MP3">24</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210329.MP3">29</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230725.MP3">25</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210330.MP3">30</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230726.MP3">26</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210331.MP3">31</a>
 </td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230727.MP3">27</a>
-</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230728.MP3">28</a>
-</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230729.MP3">29</a>
-</td>
-</tr>
-<tr class="text">
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230730.MP3">30</a>
-</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230731.MP3">31</a>
-</td>
-<td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
 <td class="border">&nbsp;</td>
 <td class="border">&nbsp;</td>
 <td class="border">&nbsp;</td>
@@ -148,7 +139,7 @@ http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸�
 <div class="label_title"><img
 src="http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/img/reading.gif" alt="" width="189"
 border="0"></div>
-<table width="365" border="3" cellpadding="3" cellspacing="5">
+<table width="375" border="3" cellpadding="3" cellspacing="5">
 <tr bordercolorlight="#FF9900" class="label">
 <td width="38" class="label_calender_SC">Sun</td>
 <td width="38" class="label_calender_SC">Mon</td>
@@ -161,52 +152,52 @@ border="0"></div>
 <tr class="text">
 <td class="border">&nbsp;</td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230732.MP3">1</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210332.MP3">1</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230733.MP3">2</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210333.MP3">2</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230734.MP3">3</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210334.MP3">3</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230735.MP3">4</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210335.MP3">4</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230736.MP3">5</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210336.MP3">5</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230737.MP3">6</a>
-</td>
-</tr>
-<tr class="text">
-<td class="border">&nbsp;</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230738.MP3">7</a>
-</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230739.MP3">8</a>
-</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230740.MP3">9</a>
-</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230741.MP3">10</a>
-</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230742.MP3">11</a>
-</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230743.MP3">12</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210337.MP3">6</a>
 </td>
 </tr>
 <tr class="text">
 <td class="border">&nbsp;</td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230744.MP3">13</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210338.MP3">7</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸入資料夾名.../SC230745.MP3">14</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210339.MP3">8</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210340.MP3">9</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210341.MP3">10</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210342.MP3">11</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210343.MP3">12</a>
+</td>
+</tr>
+<tr class="text">
+<td class="border">&nbsp;</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210344.MP3">13</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/basic//SC210345.MP3">14</a>
 </td>
 <td class="border">&nbsp;</td>
 <td class="border">&nbsp;</td>
@@ -215,14 +206,14 @@ http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/basic/輸�
 </tr>
 </table>
 </td>
-<td width="376" class="text" height="602">
+<td width="375" class="text" height="602">
 <div class="label_title"><img
 src="http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/img/advance.gif" alt="" width="189"
 height="46" border="0"></div>
-<table width="374" border="0" cellspacing="0" bordercolorlight="#FF9900" class="table_calender">
+<table width="375" border="0" cellspacing="0" bordercolorlight="#FF9900" class="table_calender">
 <tr>
 <td>
-<table width="374" border="3" cellpadding="3" cellspacing="5" height="289">
+<table width="375" border="3" cellpadding="3" cellspacing="5" height="289">
 <tr class="label">
 <td width="38" class="label_calender_AD">Sun</td>
 <td width="38" class="label_calender_AD">Mon</td>
@@ -234,116 +225,107 @@ height="46" border="0"></div>
 </tr>
 <tr class="text">
 <td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230701.MP3">1</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210301.MP3">1</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210302.MP3">2</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210303.MP3">3</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210304.MP3">4</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210305.MP3">5</a>
+</td>
+<td class="border"><a href ="
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210306.MP3">6</a>
 </td>
 </tr>
 <tr class="text">
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230702.MP3">2</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210307.MP3">7</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230703.MP3">3</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210308.MP3">8</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230704.MP3">4</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210309.MP3">9</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230705.MP3">5</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210310.MP3">10</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230706.MP3">6</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210311.MP3">11</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230707.MP3">7</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210312.MP3">12</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230708.MP3">8</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210313.MP3">13</a>
 </td>
 </tr>
 <tr class="text">
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230709.MP3">9</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210314.MP3">14</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230710.MP3">10</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210315.MP3">15</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230711.MP3">11</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210316.MP3">16</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230712.MP3">12</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210317.MP3">17</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230713.MP3">13</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210318.MP3">18</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230714.MP3">14</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210319.MP3">19</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230715.MP3">15</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210320.MP3">20</a>
 </td>
 </tr>
 <tr class="text">
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230716.MP3">16</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210321.MP3">21</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230717.MP3">17</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210322.MP3">22</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230718.MP3">18</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210323.MP3">23</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230719.MP3">19</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210324.MP3">24</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230720.MP3">20</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210325.MP3">25</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230721.MP3">21</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210326.MP3">26</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230722.MP3">22</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210327.MP3">27</a>
 </td>
 </tr>
 <tr class="text">
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230723.MP3">23</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210328.MP3">28</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230724.MP3">24</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210329.MP3">29</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230725.MP3">25</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210330.MP3">30</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230726.MP3">26</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210331.MP3">31</a>
 </td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230727.MP3">27</a>
-</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230728.MP3">28</a>
-</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230729.MP3">29</a>
-</td>
-</tr>
-<tr class="text">
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230730.MP3">30</a>
-</td>
-<td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230731.MP3">31</a>
-</td>
-<td class="border">&nbsp;</td>
-<td class="border">&nbsp;</td>
 <td class="border">&nbsp;</td>
 <td class="border">&nbsp;</td>
 <td class="border">&nbsp;</td>
@@ -356,7 +338,7 @@ http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸
 <div class="label_title"><img
 src="http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/img/reading.gif" alt="" width="189"
 border="0"></div>
-<table width="374" border="3" cellpadding="3" cellspacing="5">
+<table width="375" border="3" cellpadding="3" cellspacing="5">
 <tr bordercolorlight="#FF9900" class="label">
 <td width="38" class="label_calender_AD">Sun</td>
 <td width="38" class="label_calender_AD">Mon</td>
@@ -369,43 +351,43 @@ border="0"></div>
 <tr class="text">
 <td class="border">&nbsp;</td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230732.MP3">1</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210332.MP3">1</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230733.MP3">2</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210333.MP3">2</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230734.MP3">3</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210334.MP3">3</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230735.MP3">4</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210335.MP3">4</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230736.MP3">5</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210336.MP3">5</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230737.MP3">6</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210337.MP3">6</a>
 </td>
 </tr>
 <tr class="text">
 <td class="border">&nbsp;</td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230738.MP3">7</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210338.MP3">7</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230739.MP3">8</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210339.MP3">8</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230740.MP3">9</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210340.MP3">9</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230741.MP3">10</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210341.MP3">10</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230742.MP3">11</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210342.MP3">11</a>
 </td>
 <td class="border"><a href ="
-http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2023/advance/輸入資料夾名.../AD230743.MP3">12</a>
+http://0-www-o.ntust.edu.tw.sierra.lib.ntust.edu.tw/~lib/studio/2021/advance//AD210343.MP3">12</a>
 </td>
 </tr>
 <tr class="text">
