@@ -1,0 +1,38 @@
+Sub Transfer_Scopus()
+
+Dim ArrOld, ArrNew
+Dim Dict As Object
+Set Dict = CreateObject("scripting.dictionary")
+
+
+ArrOld = Range(Worksheets("Old").[AG1], Worksheets("Old").Cells(Rows.Count, 33).End(xlUp)) '從cell(1,AG)到cell(最後一列,33行)
+ArrNew = Range(Worksheets("New").[AG1], Worksheets("New").Cells(Rows.Count, 33).End(xlUp))
+
+For i = 1 To UBound(ArrOld)
+
+Dict.Add ArrOld(i, 1), i '字典物件.Add 索引值,內容物
+
+Next i
+
+'---------------------------------------------------------------
+For i = 1 To UBound(ArrNew)
+
+If Not Dict.exists(ArrNew(i, 1)) Then '判斷索引值是否存在
+
+Worksheets("Result").Cells(i, D) = "機構"                   '機構
+Worksheets("Result").Cells(i, B) = Worksheets("New").Cells(i, C) '文獻名稱
+Worksheets("Result").Cells(i, C) = Worksheets("New").Cells(i, D) '年份
+Worksheets("Result").Cells(i, D) = Worksheets("New").Cells(i, A) '作者
+Worksheets("Result").Cells(i, E) = Worksheets("New").Cells(i, AC) '文獻類型
+Worksheets("Result").Cells(i, F) = "集叢名" '集叢名
+Worksheets("Result").Cells(i, G) = Worksheets("New").Cells(i, M) 'DOI
+Worksheets("Result").Cells(i, H) = "DOI前面要的"+Worksheets("New").Cells(i, M) 'DOI網址
+Worksheets("Result").Cells(i, I) = Worksheets("New").Cells(i, Q) '摘要
+Worksheets("Result").Cells(i, J) = Worksheets("New").Cells(i, R) '作者關鍵字
+
+End If
+
+Next i
+
+
+End Sub
