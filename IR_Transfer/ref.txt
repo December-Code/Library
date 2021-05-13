@@ -1,7 +1,9 @@
-http://forum.twbts.com/viewthread.php?tid=21077&extra=pageD1&page=1 重複
-For i = 1 To UBound(Arr)
-    T = Arr(i, 1):  U = xD(T):  Arr(i, 1) = ""
-    If U > 0 Then Arr(U, 1) = "重覆": xD(T) = -1: U = -1
-    If U < 0 Then Arr(i, 1) = "重覆"
-    If U = 0 Then xD(T) = i
-Next i
+If strSheetName <> "" And replysheet = "指定工作表" Then
+If check_sheet(Sheets(1), strSheetName) Then '檢查工作表是否存在
+    Sheets(strSheetName).Select
+Else
+    MsgBox "工作表【" & strSheetName & "】不存在,請檢查是否名稱拼錯或是多了空白"
+    Exit Sub
+End If
+
+End If

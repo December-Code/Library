@@ -22,7 +22,6 @@ Set Master = Worksheets("records").Range("A1:CA1").Find(What:="系所名稱", Lo
     
 rowNum = Worksheets("records").Cells(Rows.Count, 1).End(xlUp).Row
 
-'For i = 2 To 4 'Test 用
 For i = 2 To rowNum
     If Not Th_CName Is Nothing Then
     Worksheets("transfer").Cells(i, "A") = Worksheets("records").Cells(i, Th_CName.Column) '論文名稱
@@ -69,7 +68,7 @@ For i = 2 To rowNum
     End If
 
     If Not Lan Is Nothing Then
-        If InStr(Worksheets("records").Cells(i, Lan.Column), "中文") = 1 Then
+        If InStr(Worksheets("records").Cells(i, Lan.Column), "") = 1 Then
         Worksheets("transfer").Cells(i, "I") = "zh-TW"
         ElseIf InStr(Worksheets("records").Cells(i, Lan.Column), "英文") = 1 Then
         Worksheets("transfer").Cells(i, "I") = "en"
